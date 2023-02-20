@@ -4,7 +4,7 @@ Small CLI app for retrieving information from Huawei SUN2000-KTL-M solar inverte
 # Usage
 
 ## Basic command
-```./huawei_solar_cli query ip:[port] <query_params> <output_destination> [--slave_id <id>] [--output_format <json/pretty_print>]```
+```./huawei_solar_cli query ip[:port] <query_params> <output_destination> [--slave_id <id>] [--output_format <json/pretty_print>]```
 ### Required arguments
 IP and port depends on the method of connecting (see below). Default port used by the app is 502.
 
